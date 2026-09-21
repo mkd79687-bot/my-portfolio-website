@@ -524,34 +524,36 @@
 
         </section>
 
+
+        <!-- Contact Form Section -->
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+                <!-- 1. Web3Forms API Key (Yahan apni original key paste karo) -->
+                <input type="hidden" name="access_key" value="c20cd9a2-26e1-4f10-8b0b-e51ec10af199">
+
+                <!-- 2. Email Subject -->
+                <input type="hidden" name="subject" value="New Portfolio Contact Message">
+
+                <!-- 3. Form Inputs -->
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+
+                <!-- 4. Submit Button -->
+                <button type="submit" class="btn">Send Message</button>
+
+            </form>
+        </div>
     </main>
-
-    <!-- Contact Form Section -->
-<form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-
-    <!-- 1. Web3Forms API Key (Yahan apni original key paste karo) -->
-    <input type="hidden" name="access_key" value="c20cd9a2-26e1-4f10-8b0b-e51ec10af199">
-
-    <!-- 2. Email Subject -->
-    <input type="hidden" name="subject" value="New Portfolio Contact Message">
-
-    <!-- 3. Form Inputs -->
-    <div class="form-group">
-        <input type="text" name="name" placeholder="Your Name" required>
-    </div>
-
-    <div class="form-group">
-        <input type="email" name="email" placeholder="Your Email" required>
-    </div>
-
-    <div class="form-group">
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    </div>
-
-    <!-- 4. Submit Button -->
-    <button type="submit" class="btn">Send Message</button>
-
-</form>
 
     <!-- ================= FOOTER ================= -->
 
